@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { 
@@ -18,7 +17,7 @@ import {
   Coffee, 
   Utensils, 
   Dumbbell, 
-  Swimming, 
+  Pool, 
   Waves, 
   Heart,
   ThumbsUp,
@@ -52,7 +51,7 @@ const hotelData = {
     { name: "Breakfast", icon: Coffee },
     { name: "Restaurant", icon: Utensils },
     { name: "Fitness Center", icon: Dumbbell },
-    { name: "Swimming Pool", icon: Swimming },
+    { name: "Swimming Pool", icon: Pool },
     { name: "Beach Access", icon: Waves }
   ],
   rooms: [
@@ -324,9 +323,3 @@ const HotelDetail = () => {
 };
 
 export default HotelDetail;
-
-// Adding missing imports
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Separator } from "@/components/ui/separator";

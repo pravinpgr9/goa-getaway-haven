@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { z } from "zod";
 import { useForm } from "react-hook-form";
@@ -73,10 +72,8 @@ const AuthForm = ({ type }: AuthFormProps) => {
     setIsLoading(true);
     
     try {
-      // In a real app, this would connect to your authentication backend
       console.log("Signin values:", values);
       
-      // Simulate API call delay
       await new Promise(resolve => setTimeout(resolve, 1500));
       
       toast({
@@ -101,10 +98,8 @@ const AuthForm = ({ type }: AuthFormProps) => {
     setIsLoading(true);
     
     try {
-      // In a real app, this would connect to your authentication backend
       console.log("Signup values:", values);
       
-      // Simulate API call delay
       await new Promise(resolve => setTimeout(resolve, 1500));
       
       toast({
