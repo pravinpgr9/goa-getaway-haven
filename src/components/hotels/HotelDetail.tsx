@@ -17,7 +17,6 @@ import {
   Coffee, 
   Utensils, 
   Dumbbell, 
-  Pool, 
   Waves, 
   Heart,
   ThumbsUp,
@@ -51,7 +50,7 @@ const hotelData = {
     { name: "Breakfast", icon: Coffee },
     { name: "Restaurant", icon: Utensils },
     { name: "Fitness Center", icon: Dumbbell },
-    { name: "Swimming Pool", icon: Pool },
+    { name: "Swimming Pool", icon: Waves },
     { name: "Beach Access", icon: Waves }
   ],
   rooms: [
